@@ -6,9 +6,9 @@ function calculateSquare(){
      
 
      if (!isNaN(value)) {
-        result.innerHTML = value * value;
+        document.getElementById('result').innerHTML = value * value;
      } else {
-        result.innerHTML = "Invalid, please enter a number";
+        document.getElementById('result').innerHTML = "Invalid, please enter a number";
      }
     
 }
