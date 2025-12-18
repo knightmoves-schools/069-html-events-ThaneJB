@@ -12,3 +12,5 @@ function calculateSquare(){
      }
     
 }
+
+document.getElementById('result').innerHTML = 1;
