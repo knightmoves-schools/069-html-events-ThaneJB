@@ -6,9 +6,9 @@ function calculateSquare(){
      let num = value;
 
      if (!isNaN(num)) {
-        result.textContent = num * num;
+        result.innerHTML = num * num;
      } else {
-        result.textContent = "Invalid, please enter a number";
+        result.innerHTML = "Invalid, please enter a number";
      }
     
 }
