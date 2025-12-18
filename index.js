@@ -9,4 +9,4 @@ function calculateSquare(){
         return result = "Invalid, please enter a number";
     }
     
-}
+};
