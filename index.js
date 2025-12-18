@@ -5,7 +5,7 @@ function calculateSquare(){
     //add code here
      
 
-     if (!isNaN(value)) {
+     if (isNaN(value)) {
         document.getElementById('result').innerHTML = value * value;
      } else {
         document.getElementById('result').innerHTML = "Invalid, please enter a number";
