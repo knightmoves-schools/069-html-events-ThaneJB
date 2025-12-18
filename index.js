@@ -3,10 +3,10 @@ function calculateSquare(){
     let result = document.getElementById('result');
 
     //add code here
-     let num = value;
+     
 
-     if (!isNaN(num)) {
-        result.innerHTML = num * num;
+     if (!isNaN(value)) {
+        result.innerHTML = value * value;
      } else {
         result.innerHTML = "Invalid, please enter a number";
      }
