@@ -3,7 +3,7 @@ function calculateSquare(){
     let result = document.getElementById('result');
 
     //add code here
-     let num = Number(value);
+     let num = value;
 
      if (!isNaN(num)) {
         result.textContent = num * num;
