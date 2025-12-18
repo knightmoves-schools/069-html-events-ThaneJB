@@ -13,3 +13,8 @@ function calculateSquare(){
     
 }
 
+ if (!isNaN(value)) {
+        document.getElementById('result').innerHTML = value * value;
+     } else {
+        document.getElementById('result').innerHTML = "Invalid, please enter a number";
+     }
